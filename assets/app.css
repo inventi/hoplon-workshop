@@ -1,8 +1,72 @@
-body {
-    margin: 0;
-    padding: 20px;
+.sign-panel{
+  font-family: Arial,sans-serif;
+  width: 18rem;
+  overflow: hidden;
 }
 
-h1 {
-    color: blue;
+.sign-panel:after{
+  content: "";
+  clear: both;
+  display: table;
 }
+
+.steps{
+  #text-align: center;
+  width: 10000px;
+}
+
+.group-top{
+  text-align: left;
+}
+
+.step{
+  width: 18rem;
+  float: left;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.sign-panel h6{
+  display: inline-block;
+  text-transform: uppercase;
+}
+
+.sign-panel input, .sign-panel select{
+  width: 250px;
+  height: 27px;
+  padding: 1px;
+  padding-left: 5px;
+  border: 1px solid #C3B1AA;
+  font-size: 14px;
+  vertical-align: middle;
+  margin: 5px 0px 5px 0px;
+}
+
+
+.sign-panel .next-action,.cancel-action{
+  background-color: #12B0DC;
+  font-size: 16px;
+  color: #FFF;
+  cursor: pointer;
+  width: 150px;
+  height: 40px;
+  margin-top: 3px;
+  margin-left: 48px;
+  border: medium none;
+}
+
+
+.sign-panel .back-action{
+  display: inline-block;
+  background-color: #12B0DC;
+  font-size: 12px;
+  color: #FFF;
+  cursor: pointer;
+  width: 50px;
+  height: 20px;
+  margin-top: 3px;
+  margin-right: 10px;
+  border: medium none;
+}
+
+
